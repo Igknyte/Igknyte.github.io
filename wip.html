@@ -30,6 +30,11 @@
                 blockquote {font-family:'medula one'; background:#9ba891; color:#496254; box-shadow: 0 15px 1px #3e514b; width:100%; margin:0; margin-bottom:2%; text-align:center; font-size:2em; line-height:1.25em}
                 #textbox {background:#496254; color:#e5e3c9; text-align:center; font-size:8em; line-height:1em; box-shadow: 0 15px 1px #3e514b; width: 100%; padding: 0; margin: 0 auto; margin-bottom:2%}
         </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+        <script>
+	(function( $ ){ $.fn.fitText = function( kompressor, options ) { var settings = { 'minFontSize' : Number.NEGATIVE_INFINITY, 'maxFontSize' : Number.POSITIVE_INFINITY }; return this.each(function(){ var $this = $(this); var compressor = kompressor || 1; if ( options ) { $.extend( settings, options ); } var resizer = function () { $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize))); }; resizer(); $(window).resize(resizer); }); }; })( jQuery ); 
+	$("h1").fitText(.75);
+</script>
 </head>
 <body>
 <header>
