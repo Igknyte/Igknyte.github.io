@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+        <title>Ignyte Ventures</title>
+        <style>
+                /* colors: #e5e3c9 #4a4b4b #3e514b #9ba891 #d3d8c7 #496254 #c6d1ca */
+                @import url(http://fonts.googleapis.com/css?family=Medula+One|Anton);
+                html {font-family:'anton'; background:#e5e3c9; color:#496254}
+                body {width:60%; margin:0 auto; font-size:1.5em; text-transform:uppercase}
+                h1 {font-family:'medula one'; float:left; margin:0.175em 0; font-size:4em}
+                nav {float:right; margin:1% 0}
+                nav li {display:inline-block; font-size:3em; margin-left:15px}
+                p {margin:1%}
+                a:link, a:visited {color:#4a4b4b; text-decoration:none}
+                a:hover, a:active {color:#496254}
+                header, section, blockquote {overflow:hidden; padding:1% 0}
+                .sidebar {background:#d3d8c7; color:#4a4b4b; padding:1% 2%; box-shadow: 0 15px 1px #c6d1ca}
+                .widget {background:#9ba891; color:#3e514b; border-bottom:5px #3e514b}
+                article {float:left; width:70%}
+                aside {float:right; width:25%}
+                blockquote {font-family:'medula one'; background:#9ba891; color:#496254; box-shadow: 0 15px 1px #3e514b; width:100%; margin:0; margin-bottom:2%; text-align:center; font-size:2em; line-height:1.25em}
+                #textbox {background:#496254; color:#e5e3c9; text-align:center; font-size:8em; line-height:1em; box-shadow: 0 15px 1px #3e514b; width: 100%; padding: 0; margin: 0 auto; margin-bottom:2%}
+        </style>
+</head>
+<body>
+<header>
+        <h1>Ignyte Ventures</h1>
+        <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">BitCoins</a></li>
+                <li><a href="#">Venture Capital</a></li>
+                <li><a href="#">Donations</a></li>
+        </nav>
+</header>
+<blockquote id="textbox">More More More</blockquote>
+<section>
+        <article>
+                <p>Insret text!</p>
+        </article>
+        <aside class="sidebar">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="###########">       /*we need our own Id value*/
+<table>
+<tr><td><input type="hidden" name="on0" value="Payment Size">Payment Size</td></tr><tr><td><select name="os0">
+	<option value="Deposit">Deposit $1,000.00 USD</option>
+	<option value="Full">Full $1,000,000.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+        </aside>
+</section>
+<section>
+        <blockquote>Be positive</blockquote>
+      
+</section>
+</body>
+</html>
